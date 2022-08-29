@@ -1,0 +1,9 @@
+oscar_winners = {"Best Picture": "La La Land", "Best Actor": "Casey Affleck", "Best Actress": "Emma Stone", "Animated Feature": "Zootopia"}
+
+#New value
+oscar_winners["Supporting Actress"] = 'Viola Davis'
+
+#Change Value
+oscar_winners["Best Picture"] = 'Moonlight'
+
+print(oscar_winners)
